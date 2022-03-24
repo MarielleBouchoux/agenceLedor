@@ -23,4 +23,59 @@ a {
   text-decoration: none;
 }
 
-/* font-family: 'Liu Jian Mao Cao', cursive; */
+/* vp + header */
+.vp-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 1rem 2rem;
+  background: #333;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+header a {
+  color: white;
+}
+
+header ul {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+}
+
+header ul li {
+  padding: 1rem;
+}
+
+header ul li a:hover {
+  color: #f1c40f;
+}
+
+.vp {
+  flex: auto;
+}
+
+.vp-logo {
+  font-size: 1.8rem;
+  font-family: "Long Cang", cursive;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.vp-logo i {
+  color: #f1c40f;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.vp-logo a {
+  font-size: 3rem;
+}
