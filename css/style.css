@@ -35,6 +35,10 @@ strong {
   font-weight: 400;
 }
 
+em {
+  color: #555;
+}
+
 /* class */
 .container {
   max-width: 1200px;
@@ -198,4 +202,46 @@ sur les grands écrans */
 
 .who-content-text h2 {
   margin-bottom: 2rem;
+}
+/* testimonials */
+.testimonials {
+  padding: 5rem 1rem;
+}
+
+.testimonials-content {
+  display: flex;
+  flex-direction: column;
+}
+.testimonials-elem {
+  flex: 1;
+  background: white;
+  padding: 2rem;
+  border-radius: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.testimonials-elem-text {
+  padding: 0 2rem;
+}
+
+.testimonials-elem-profil {
+}
+
+.testimonials-elem-profil p {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.testimonials-elem-profil img {
+  width: 50px;
+  border-radius: 50px;
+  margin-bottom: 0.5rem;
+}
+
+.testimonials-elem-text p i {
+  margin: 0.2rem;
 }
