@@ -37,9 +37,9 @@
           <a href="#">Ledor</a>
         </h2>
         <ul>
-          <li><a href="#">Nos offres</a></li>
-          <li><a href="#">Notre équipe</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#offer">Nos offres</a></li>
+          <li><a href="#team">Notre équipe</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </header>
       <section class="vp">
@@ -89,9 +89,10 @@
         </ul>
       </div>
     </section>
-    <section class="who">
+    <section id="team" class="who">
       <div class="who-content-img">
-        <img src="./img/team.jpg" alt="teal" />
+        <!-- on retire le tag image, on préfère passer par background -->
+        <!-- <img src="./img/team.jpg" alt="teal" /> -->
       </div>
       <div class="who-content-text bg-dark">
         <h2>
@@ -130,7 +131,7 @@
               <em>CEO Etoile</em>
             </div>
           </div>
-          <div class="testimonials-elem">
+          <div class="testimonials-elem testimonials-elem-reverse">
             <div class="testimonials-elem-profil">
               <img src="./img/person-2.jpg" alt="person2" />
               <p>Arthur Dulac</p>
@@ -166,7 +167,7 @@
         </div>
       </div>
     </section>
-    <section class="contact bg-dark">
+    <section id="contact" class="contact bg-dark">
       <form action="#" class="contact-form">
         <h2 class="title">Pour nous <strong>contacter</strong></h2>
         <input type="text" name="name" id="name" placeholder="Nom" />
@@ -183,7 +184,7 @@
       </form>
     </section>
     <footer>
-      <p>Copyright 2019 Ludor, Inc</p>
+      <p>Copyright 2019 Ledor, Inc</p>
     </footer>
   </body>
 </html>

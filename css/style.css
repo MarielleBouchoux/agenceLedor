@@ -175,17 +175,20 @@ sur les grands écrans */
 
 /* who */
 .who {
+  min-height: 600px;
   display: flex;
   flex-flow: row nowrap;
 }
 
 .who-content-img {
   flex: 1;
+  background: url(../img/team.jpg) center center / cover;
 }
 
-.who-content-img img {
+/* relatif à quand il y avait une image */
+/* .who-content-img img {
   width: 100%;
-}
+} */
 
 .who-content-text {
   flex: 1;
@@ -226,9 +229,6 @@ sur les grands écrans */
 
 .testimonials-elem-text {
   padding: 0 2rem;
-}
-
-.testimonials-elem-profil {
 }
 
 .testimonials-elem-profil p {
